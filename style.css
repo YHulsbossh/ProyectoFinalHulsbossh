@@ -1,0 +1,29 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.carousel-item{
+    height: 600px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+}
+.card{
+    width: 18rem;
+    height: 400px;
+    margin: 40px;
+}
+.card img {
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+        
+  }
+
+
+.carrito svg{
+    color: white;
+}
+

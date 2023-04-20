@@ -1,0 +1,108 @@
+[
+    {
+        "id": "1",
+        "titulo": "Top de un hombro",
+        "imagen": "../assets/topHombro.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 2000
+    },
+    {
+        "id": "2",
+        "titulo": "Top Roma",
+        "imagen": "../assets/topRoma.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 2000
+    },
+    {
+        "id": "3",
+        "titulo": "Top Venecia",
+        "imagen": "../assets/topVenecia.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 2500
+    },
+    {
+        "id": "4",
+        "titulo": "Vestido Naomi",
+        "imagen": "../assets/vestidoNaomi.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 4500
+    },
+    {
+        "id": "5",
+        "titulo": "Chaleco Lina",
+        "imagen": "../assets/chalecoLina.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 6500
+    },
+    {
+        "id": "6",
+        "titulo": "Camisa Larga",
+        "imagen": "../assets/camisaLarga.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 5500
+    },
+    {
+        "id": "7",
+        "titulo": "Sweater Camel",
+        "imagen": "../assets/sweaterCamel.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 4000
+    },
+    {
+        "id": "8",
+        "titulo": "Chaleco Green",
+        "imagen": "../assets/chalecoGreen.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 5000
+    },
+    {
+        "id": "9",
+        "titulo": "Campera Ibiza",
+        "imagen": "../assets/camperaIbiza.JPG",
+        "categoria": "abrigos-remeras",
+        "precio": 9000
+    },
+    {
+        "id": "10",
+        "titulo": "Biker",
+        "imagen": "../assets/biker.JPG",
+        "categoria": "pantalones",
+        "precio": 4500
+    },
+    {
+        "id": "11",
+        "titulo": "Pantalon Lino",
+        "imagen": "../assets/pantalonLino.jpg",
+        "categoria": "pantalones",
+        "precio": 3000
+    },
+    {
+        "id": "12",
+        "titulo": "Jean Paloma",
+        "imagen": "../assets/jeanPaloma.JPG",
+        "categoria": "pantalones",
+        "precio": 5500
+    },
+    {
+        "id": "13",
+        "titulo": "Cinto",
+        "imagen": "../assets/cinto.JPG",
+        "categoria": "accesorios",
+        "precio": 2500
+    },
+    {
+        "id": "14",
+        "titulo": "Portacelular Lima",
+        "imagen": "../assets/portacelularLima.JPG",
+        "categoria": "accesorios",
+        "precio": 3500
+    },
+    {
+        "id": "15",
+        "titulo": "Bolso Kiss",
+        "imagen": "../assets/bolsoKiss2.png",
+        "categoria": "accesorios",
+        "precio": 7000
+    }
+  ]
+  
