@@ -49,7 +49,7 @@ function renderProductosCarrito() {
       </table>
     `;
   } else {
-    salida = `<div class="alert alert-success text-center" role="alert">No se agregaron productos al Carrito</div>`;
+    salida = `<div class="alert alert-success text-center align-middle" role="alert">No se agregaron productos al Carrito</div>`;
   }
 
   document.getElementById('carritoContainer').innerHTML = salida;
@@ -79,7 +79,7 @@ function borrarProductosDelCarrito(id){
     carrito.splice(indexCarrito, 1);
     guardarProductosLS(carrito);
     renderProductosCarrito();
-    actualizarNumero();
+    actualizarNumero(numeroActualizado);
     Toastify({
       text: "Producto Eliminado",
       duration: 3000,
@@ -94,19 +94,18 @@ function borrarProductosDelCarrito(id){
         fontSize: ".75rem"
       },
       offset: {
-          x: '1.5rem',
-          y: '1.5rem' 
-        },
+        x: '1.5rem',
+        y: '3.5rem' 
+      },
       onClick: function(){} 
     }).showToast();
   }
- console.log (carrito)
 }
 
 function vaciarCarrito() {
   localStorage.removeItem("carrito");
   renderProductosCarrito();
-  actualizarNumero();
+  actualizarNumero(numeroActualizado);
 } 
 
 
