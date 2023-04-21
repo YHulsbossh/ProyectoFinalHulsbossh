@@ -10,7 +10,7 @@ fetch("/js/array.json")
 
 
 const main = document.getElementById('main');
-const numero = document.getElementById('numero')
+const numero = document.getElementById('numero');
 let carrito = [];
 
 
@@ -33,8 +33,6 @@ productos.forEach((producto) => {
   
   document.getElementById("destacados").innerHTML=salida ;
   boton()
-  console.log(carrito);
- 
 }
 
 function boton(){
@@ -65,7 +63,7 @@ const agregarAlCarrito = (id) => {
     },
     offset: {
         x: '1.5rem',
-        y: '1.5rem' 
+        y: '3.5rem' 
       },
     onClick: function(){} 
   }).showToast();
@@ -92,7 +90,6 @@ const agregarAlCarrito = (id) => {
 }
 
 function guardarProductosLS(carrito) {
-  console.log(carrito)
   return localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
@@ -104,12 +101,11 @@ function cargarProductosLS() {
 function actualizarNumero(){
   const nuevoNumero= carrito.reduce((acc, producto) => acc + producto.cantidad, 0);
   numero.innerText = nuevoNumero;
-  let numeroActualizado = localStorage.setItem('cantidadProductos', nuevoNumero);
+  let numeroActualizado = localStorage.setItem('cantidadProductos', JSON.stringify("nuevoNumero"));
 }
 
 
 renderProductosDestacados()
-
 
 
 
